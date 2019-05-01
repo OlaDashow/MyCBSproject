@@ -1,0 +1,8 @@
+body{
+    background: url('../../graphics/responsive_bg.jpg') repeat-x center top !important;
+}
+#head{
+    background: linear-gradient(180deg, #D5DEE5, #DFE4EA);
+}.navbar{
+    background-color: red;
+}
