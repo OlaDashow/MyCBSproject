@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="Electric.css">
     <!--google font-->
     <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <title>eWork</title>
   </head>
@@ -31,33 +33,33 @@
                   </div>
             </div>
       <!--The Navbar-->
-      <nav class="navbar navbar-expand-lg ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto ml-5 justify-content-center">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services & Equipments
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                  </li>
-                </li>
-              </ul>
-          </div>
-        </nav>
+      <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-4 align-items-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SERVICES & EQUIPMENT
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
         <!--Intro and Slide Show-->
         <section>
           <div class="jumbotron Intro mb-0">
@@ -71,7 +73,7 @@
                   We have served industrial, commercial and agricultural customers in South Dakota, Wyoming, Montana and North Dakota for over 60 years.</p>
               </div>
         <!--Slide Show-->  
-              <div class="col-4 c border border-dark px-0 py-0">
+              <div class="col-4 c border border-dark d-none d-lg-block px-0 py-0">
                   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active img-1">
@@ -145,28 +147,28 @@
               <div class="col-2 justify-content-center ml-4">
                 <h6>ABOUT US</h6>
                 <ul class="list-group">
-                  <li class="list-group-item border-0 px-0"><a href="">Company Profile</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">Careers</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">Investors</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">Press</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">Sustainability</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Company Profile</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Careers</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Investors</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Press</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Sustainability</a></li>
                 </ul>
               </div>
               <div class="col-2 align-items-center">
-                <h6>CONTACT US</h6>
+                <h6 class="text-center">CONTACT US</h6>
                 <ul class="list-goup">
-                  <li class="list-group-item border-0 px-0"><a href="">Offices</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">Inquiries</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">Where to buy</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">To Partner</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Offices</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Inquiries</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Where to buy</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">To Partner</a></li>
                 </ul>
               </div>
               <div class="col-2">
                 <h6>SUPPORT</h6>
                 <ul class="list-group">
-                  <li class="list-group-item border-0 px-0"><a href="">Works</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">Documentation</a></li>
-                  <li class="list-group-item border-0 px-0"><a href="">FAQs</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Works</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">Documentation</a></li>
+                  <li class="list-group-item border-0 px-2"><a href="">FAQs</a></li>
                 </ul>
               </div>
             </div>
